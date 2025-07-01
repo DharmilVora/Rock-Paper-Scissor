@@ -1,0 +1,89 @@
+#yu{
+    height:50px;
+    width: auto;
+    background-color: rgba(12, 14, 22, 0.66);
+}
+h1{
+    color: white;
+    padding-top: 5px;
+}
+body,html,h1{
+    padding: 0px;
+    margin: 0px;
+}
+#yu{
+    display: flex;
+    justify-content: center; /*it will keep content in vertical way of item */
+    align-items: center;/*it will keep content in horizontal way of item */
+}
+#h1{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+#h2{
+    padding-top: 9px;
+    display: flex;
+    justify-content: center;
+}
+#d1,#d2,#d3{
+    height:150px;
+    width:150px;
+    border-radius: 50%;
+}
+#d4{
+    display: flex;
+    padding-right: 100px;
+}
+#d5{
+    display: flex;
+    padding-right: 100px;
+}
+#d1{
+    background-repeat: no-repeat;
+    background-color: pink;
+    background-image: url("rock.png");
+    background-size:270px;
+    background-position: center;
+}
+#d1:hover {
+        border: 5px solid black;
+}
+#d2:hover {
+    border: 5px solid black;
+}
+#d3:hover {
+    border: 5px solid black;
+}
+#d2{
+    background-repeat: no-repeat;
+    background-color:rgb(94, 75, 140);
+    background-image: url("paper.png");
+    background-size:270px;
+    background-position: center;
+}
+#d3{
+    background-repeat: no-repeat;
+    background-color: pink;
+    background-image: url("scissors.png");
+    background-size:270px;
+    background-position: center;
+}
+#lo{
+    display: flex;
+    height:50px;
+    width: 150px;
+    align-items: center;
+    background-color: rgb(57, 81, 89);
+    border-radius: 25%;
+    justify-content: center;
+    color:white;
+}
+#se,#ft{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#ko,#go{
+    font-size:xx-large;
+}
